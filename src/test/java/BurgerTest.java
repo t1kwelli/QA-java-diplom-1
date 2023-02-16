@@ -21,7 +21,6 @@ public class BurgerTest {
     Ingredient ingredientTwo = new Ingredient(IngredientType.SAUCE, "sour cream", 200);
 
     Bun blackBun = new Bun("black bun", 100);
-    Bun whiteBun = new Bun("white bun", 200);
 
     @Mock
     private Bun bun;
